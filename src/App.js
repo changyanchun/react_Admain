@@ -14,8 +14,6 @@ export default class App extends React.Component{
               <Route path="/admin" component={Admin}></Route>
             </Switch>
           </BrowserRouter>
-      
-      
     )
   }
 }
