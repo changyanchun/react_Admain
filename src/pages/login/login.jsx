@@ -7,8 +7,6 @@ import './login.less'
 const Item=Form.Item;
 
 
-
-
 class Login extends Component {
 
     handleSubmit=(event)=>{
