@@ -26,7 +26,7 @@ export default function Ajax(url,data={},method="GET"){
         }else{
             promise = axios.post(url,data)
         }
-         //指定axios返回的promise对象的成功或者失败
+         //指定axios返回的promise对象的成功或者失败数据
         promise.then(
             response=>{resolve(response.data)},
             error=>{alert('请求出错:'+error.message)}
